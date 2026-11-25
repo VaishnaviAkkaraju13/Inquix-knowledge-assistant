@@ -1,0 +1,12 @@
+[
+  {
+    "source": "policies.md",
+    "chunk_id": 0,
+    "text": "# Policies\n\nPayment is split into two parts: 50% at project start and 50% on delivery.\n\nWe do not store client customer data after a workflow run completes.\n\nSupport requests are answered within one business day."
+  },
+  {
+    "source": "services.md",
+    "chunk_id": 0,
+    "text": "# Services\n\nWe build workflow automations for small businesses, including email, WhatsApp, accounts payable and accounts receivable.\n\nA typical project takes two to four weeks, from requirements to deployment.\n\nWe offer a monthly support plan that covers monitoring, fixes and small changes to existing workflows."
+  }
+]

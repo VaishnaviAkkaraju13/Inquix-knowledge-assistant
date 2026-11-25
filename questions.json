@@ -1,0 +1,12 @@
+[
+  {"question": "How long does a typical project take?", "keywords": ["two to four weeks"], "source": "services.md", "answerable": true},
+  {"question": "What kinds of automations do you build?", "keywords": ["whatsapp"], "source": "services.md", "answerable": true},
+  {"question": "Do you offer ongoing support after delivery?", "keywords": ["monthly"], "source": "services.md", "answerable": true},
+  {"question": "How does payment work?", "keywords": ["50%"], "source": "policies.md", "answerable": true},
+  {"question": "Do you keep my customers' data?", "keywords": ["not store"], "source": "policies.md", "answerable": true},
+  {"question": "How fast do you reply to support requests?", "keywords": ["one business day"], "source": "policies.md", "answerable": true},
+  {"question": "Can you automate accounts receivable?", "keywords": ["accounts receivable"], "source": "services.md", "answerable": true},
+  {"question": "Do you sell cars?", "answerable": false},
+  {"question": "What is the weather in Paris today?", "answerable": false},
+  {"question": "Do you offer mobile app development?", "answerable": false}
+]

@@ -1,0 +1,214 @@
+{
+  "summary": {
+    "total_questions": 10,
+    "overall_accuracy": 1.0,
+    "answerable_accuracy": 1.0,
+    "correct_decline_rate": 1.0,
+    "avg_latency_s": 0.91,
+    "max_latency_s": 1.48,
+    "avg_input_tokens": 131,
+    "avg_output_tokens": 14,
+    "cost_per_query_usd": "set prices in evaluate.py"
+  },
+  "rows": [
+    {
+      "case": {
+        "question": "How long does a typical project take?",
+        "keywords": [
+          "two to four weeks"
+        ],
+        "source": "services.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "A typical project takes two to four weeks, from requirements to deployment. [services.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.285,
+        "input_tokens": 188,
+        "output_tokens": 19
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "What kinds of automations do you build?",
+        "keywords": [
+          "whatsapp"
+        ],
+        "source": "services.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "We build workflow automations for small businesses, including email, WhatsApp, accounts payable and accounts receivable. [services.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.06,
+        "input_tokens": 189,
+        "output_tokens": 25
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "Do you offer ongoing support after delivery?",
+        "keywords": [
+          "monthly"
+        ],
+        "source": "services.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "Yes, we offer a monthly support plan that covers monitoring, fixes and small changes to existing workflows. [services.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.477,
+        "input_tokens": 188,
+        "output_tokens": 25
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "How does payment work?",
+        "keywords": [
+          "50%"
+        ],
+        "source": "policies.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "Payment is split into two parts: 50% at project start and 50% on delivery. [policies.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.37,
+        "input_tokens": 185,
+        "output_tokens": 27
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "Do you keep my customers' data?",
+        "keywords": [
+          "not store"
+        ],
+        "source": "policies.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "We do not store client customer data after a workflow run completes. [policies.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.242,
+        "input_tokens": 188,
+        "output_tokens": 18
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "How fast do you reply to support requests?",
+        "keywords": [
+          "one business day"
+        ],
+        "source": "policies.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "Support requests are answered within one business day. [policies.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.232,
+        "input_tokens": 189,
+        "output_tokens": 14
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "Can you automate accounts receivable?",
+        "keywords": [
+          "accounts receivable"
+        ],
+        "source": "services.md",
+        "answerable": true
+      },
+      "result": {
+        "answer": "Yes, we can automate accounts receivable. [services.md]",
+        "sources": [
+          "policies.md",
+          "services.md"
+        ],
+        "fallback": false,
+        "latency_s": 1.343,
+        "input_tokens": 186,
+        "output_tokens": 13
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "Do you sell cars?",
+        "answerable": false
+      },
+      "result": {
+        "answer": "I don't have enough information to answer that. Please contact the team directly.",
+        "sources": [],
+        "fallback": true,
+        "latency_s": 0.02,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "What is the weather in Paris today?",
+        "answerable": false
+      },
+      "result": {
+        "answer": "I don't have enough information to answer that. Please contact the team directly.",
+        "sources": [],
+        "fallback": true,
+        "latency_s": 0.041,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "correct": true
+    },
+    {
+      "case": {
+        "question": "Do you offer mobile app development?",
+        "answerable": false
+      },
+      "result": {
+        "answer": "I don't have enough information to answer that. Please contact the team directly.",
+        "sources": [],
+        "fallback": true,
+        "latency_s": 0.04,
+        "input_tokens": 0,
+        "output_tokens": 0
+      },
+      "correct": true
+    }
+  ]
+}
